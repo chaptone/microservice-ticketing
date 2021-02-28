@@ -3,13 +3,13 @@ kind: Config
 deploy:
   kubectl:
     manifests:
-      - ./microservice-ticketing-infra/k8s/*
+      - ./infra/k8s/*
 build:
   local:
     push: false
   artifacts:
     - image: rakkan/ticketing-auth
-      context: auth
+      context: services/auth
       docker:
         dockerfile: Dockerfile
       sync:
@@ -25,7 +25,7 @@ build:
           - src: '**/*.js'
             dest: .
     - image: rakkan/ticketing-tickets
-      context: tickets
+      context: services/tickets
       docker:
         dockerfile: Dockerfile
       sync:
@@ -33,7 +33,7 @@ build:
           - src: 'src/**/*.ts'
             dest: .
     - image: rakkan/ticketing-orders
-      context: orders
+      context: services/orders
       docker:
         dockerfile: Dockerfile
       sync:
@@ -41,7 +41,7 @@ build:
           - src: 'src/**/*.ts'
             dest: .
     - image: rakkan/ticketing-expiration
-      context: expiration
+      context: services/expiration
       docker:
         dockerfile: Dockerfile
       sync:
@@ -49,7 +49,7 @@ build:
           - src: 'src/**/*.ts'
             dest: .
     - image: rakkan/ticketing-payments
-      context: payments
+      context: services/payments
       docker:
         dockerfile: Dockerfile
       sync:
