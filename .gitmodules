@@ -19,3 +19,6 @@
 [submodule "client"]
 	path = client
 	url = https://github.com/chaptone/microservice-ticketing-client.git
+[submodule "services/payments"]
+	path = services/payments
+	url = https://github.com/chaptone/microservice-ticketing-payments.git
