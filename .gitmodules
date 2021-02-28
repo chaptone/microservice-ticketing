@@ -1,24 +1,18 @@
-[submodule "common"]
+[submodule "packages/common"]
 	path = packages/common
 	url = https://github.com/chaptone/microservice-ticketing-common.git
-[submodule "tickets"]
-	path = services/tickets
-	url = https://github.com/chaptone/microservice-ticketing-tickets.git
-[submodule "client"]
-	path = services/client
-	url = https://github.com/chaptone/microservice-ticketing-client.git
-[submodule "auth"]
-	path = services/auth
-	url = https://github.com/chaptone/microservice-ticketing-auth.git
-[submodule "expiration"]
-	path = services/expiration
-	url = https://github.com/chaptone/microservice-ticketing-expiration.git
-[submodule "orders"]
-	path = services/orders
-	url = https://github.com/chaptone/microservice-ticketing-orders.git
-[submodule "payments"]
-	path = services/payments
-	url = https://github.com/chaptone/microservice-ticketing-payments.git
-[submodule "infra"]
+[submodule "packages/infra"]
 	path = packages/infra
 	url = https://github.com/chaptone/microservice-ticketing-infra.git
+[submodule "services/tickets"]
+	path = services/tickets
+	url = https://github.com/chaptone/microservice-ticketing-tickets.git
+[submodule "services/orders"]
+	path = services/orders
+	url = https://github.com/chaptone/microservice-ticketing-orders.git
+[submodule "services/expiration"]
+	path = services/expiration
+	url = https://github.com/chaptone/microservice-ticketing-expiration.git
+[submodule "services/auth"]
+	path = services/auth
+	url = https://github.com/chaptone/microservice-ticketing-auth.git
