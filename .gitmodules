@@ -1,5 +1,5 @@
-[submodule "microservice-ticketing-common"]
-	path = microservice-ticketing-common
+[submodule "common"]
+	path = packages/common
 	url = https://github.com/chaptone/microservice-ticketing-common.git
 [submodule "microservice-ticketing-tickets"]
 	path = microservice-ticketing-tickets
