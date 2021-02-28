@@ -1,0 +1,24 @@
+[submodule "microservice-ticketing-common"]
+	path = microservice-ticketing-common
+	url = https://github.com/chaptone/microservice-ticketing-common.git
+[submodule "microservice-ticketing-tickets"]
+	path = microservice-ticketing-tickets
+	url = https://github.com/chaptone/microservice-ticketing-tickets.git
+[submodule "microservice-ticketing-client"]
+	path = microservice-ticketing-client
+	url = https://github.com/chaptone/microservice-ticketing-client.git
+[submodule "microservice-ticketing-auth"]
+	path = microservice-ticketing-auth
+	url = https://github.com/chaptone/microservice-ticketing-auth.git
+[submodule "microservice-ticketing-expiration"]
+	path = microservice-ticketing-expiration
+	url = https://github.com/chaptone/microservice-ticketing-expiration.git
+[submodule "microservice-ticketing-orders"]
+	path = microservice-ticketing-orders
+	url = https://github.com/chaptone/microservice-ticketing-orders.git
+[submodule "microservice-ticketing-payments"]
+	path = microservice-ticketing-payments
+	url = https://github.com/chaptone/microservice-ticketing-payments.git
+[submodule "microservice-ticketing-infra"]
+	path = microservice-ticketing-infra
+	url = https://github.com/chaptone/microservice-ticketing-infra.git
