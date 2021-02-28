@@ -1,9 +1,6 @@
 [submodule "packages/common"]
 	path = packages/common
 	url = https://github.com/chaptone/microservice-ticketing-common.git
-[submodule "packages/infra"]
-	path = packages/infra
-	url = https://github.com/chaptone/microservice-ticketing-infra.git
 [submodule "services/tickets"]
 	path = services/tickets
 	url = https://github.com/chaptone/microservice-ticketing-tickets.git
@@ -16,3 +13,9 @@
 [submodule "services/auth"]
 	path = services/auth
 	url = https://github.com/chaptone/microservice-ticketing-auth.git
+[submodule "infra"]
+	path = infra
+	url = https://github.com/chaptone/microservice-ticketing-infra.git
+[submodule "client"]
+	path = client
+	url = https://github.com/chaptone/microservice-ticketing-client.git
